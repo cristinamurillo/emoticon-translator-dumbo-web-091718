@@ -4,7 +4,10 @@ require 'pry'
 
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
-  binding.pry 
+  emoticons.each { |meaning, symbols_array|
+    
+    
+  }
 end
 
 def get_japanese_emoticon
