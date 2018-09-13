@@ -22,9 +22,9 @@ def get_japanese_emoticon(file_path, emoticon)
 end
 
 def get_english_meaning(file_path, emoticon)
-    load_library(file_path)["get_meaning"].each { |japanese_emote, english_emote|
+    load_library(file_path)["get_meaning"].each { |english_emote, meaning|
       if english_emote == emoticon 
-        return english_emote
+        return 
       end
   }
   "Sorry, that emoticon was not found"
