@@ -15,6 +15,8 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   load_library(file_path)["get_emoticon"].each { |japanese_emote, english_emote|
     if japanese_emote == emoticon 
+      
+    end
     
   }
 end
