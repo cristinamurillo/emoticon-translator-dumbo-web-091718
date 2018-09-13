@@ -13,7 +13,7 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  load_library(file_path)["get_emoticon"].each { |japanese_emoticon, 
+  load_library(file_path)["get_emoticon"].each { |japanese_emote, english_emote|
 end
 
 def get_english_meaning
